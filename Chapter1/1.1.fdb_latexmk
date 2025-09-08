@@ -1,6 +1,6 @@
 # Fdb version 4
-["lualatex"] 1757319593.12629 "/Users/wangshiyu/Documents/latex/Solution-to-SCU-ODE-textbook-3ed/Chapter1/chap1.tex" "chap1.pdf" "chap1" 1757319593.69224 0
-  "/Users/wangshiyu/Documents/latex/Solution-to-SCU-ODE-textbook-3ed/Chapter1/chap1.tex" 1757319593.02814 4877 4a4e2277150b5d36da000d8a47073ab6 ""
+["lualatex"] 1757319834.28351 "/Users/wangshiyu/Documents/latex/Solution-to-SCU-ODE-textbook-3ed/Chapter1/1.1.tex" "1.1.pdf" "1.1" 1757319834.84806 0
+  "/Users/wangshiyu/Documents/latex/Solution-to-SCU-ODE-textbook-3ed/Chapter1/1.1.tex" 1757319834.19087 4871 f9c7977c5f87808b86656ab1078f10c0 ""
   "/Users/wangshiyu/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc" 1748437250.72408 128299 be367f675212df055d4e2af5a576ea4b ""
   "/Users/wangshiyu/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1748437250.68265 127670 aa0bc69e37a0327ab31f5f335b78c1f7 ""
   "/Users/wangshiyu/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman17-regular.luc" 1748437250.64388 128921 07adb2945086befdab18eaf5c6037ccb ""
@@ -110,10 +110,10 @@
   "/usr/local/texlive/2025/texmf-dist/tex/luatex/luaotfload/luaotfload.lua" 1740687098 13566 16df94dd2de231b2bca0aaa0190941fe ""
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1748953588 5523539 cbe340ff87ac4cfddcdc6361a84e52ac ""
   "/usr/local/texlive/2025/texmf-var/web2c/luahbtex/lualatex.fmt" 1748953771 6503483 b35194fa7a518ed168684d5a0090af6a ""
-  "chap1.aux" 1757319593.62054 132 b624670d293a3b7d1edf65a33b97800e "lualatex"
-  "chap1.tex" 1757319593.02814 4877 4a4e2277150b5d36da000d8a47073ab6 ""
+  "1.1.aux" 1757319834.77435 132 b624670d293a3b7d1edf65a33b97800e "lualatex"
+  "1.1.tex" 1757319834.19087 4871 f9c7977c5f87808b86656ab1078f10c0 ""
   (generated)
-  "chap1.aux"
-  "chap1.log"
-  "chap1.pdf"
+  "1.1.aux"
+  "1.1.log"
+  "1.1.pdf"
   (rewritten before read)
