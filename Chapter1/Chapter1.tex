@@ -1,0 +1,233 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\title{Solutions to Chapter 1 Exercises}
+\author{Shiyu Wang(2022141500089)}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Exercise 1.1}
+
+\begin{enumerate}[label=\textbf{Exercise \arabic*:}]
+    \item
+    \textbf{Problem:} \\
+    An boat is traveling at a constant speed $v_0$ towards the bank of a river vertically. The flow speed of the river is on the 
+    $x$ axis and the absolute value is Proportional to the distance from both banks. The proportionality constant is $k$. 
+    the width of the river is $a$. Find the equation of the trajectory of the boat.
+
+    \textbf{Solution:} \\
+    Let the position of the boat be $(x,y)$, where $y$ is the distance from the bottom bank. The speed of the boat relative to the ground is
+    \[\frac{dx}{dt} = ky(a-y), \quad \frac{dy}{dt} = v_0.\]
+    Thus, we have
+    \[\frac{dx}{dy} = \frac{ky(a-y)}{v_0}.\]
+    Integrating both sides, we get
+    \[x = \frac{ka}{2v_0}y^2 +\frac{ky^3}{3v_0} + C.\]
+    If we assume the boat starts from the bottom bank at $y=0$ and $x=0$, then $C=0$. Therefore, the equation of the trajectory is
+    \[x = \frac{ka}{2v_0}y^2 +\frac{ky^3}{3v_0}.\]
+
+    \item
+    \textbf{Problem:} \\
+    Determine the differential equation of a curve in the Cartesian Oxt-plane such that,
+     at each point of the curve, the tangent line together with the radius vector 
+     to that point and the x-axis forms an isosceles triangle.
+
+
+    \textbf{Solution:} \\
+    
+    \begin{itemize}
+        \item First scenario: the absolute value of radius vector is the same as the length 
+        of the tangent line segment from the point of tangency to the x-axis.
+
+        Here, the length of radius vector is $\sqrt{x^2 + y^2}$, and the length of the tangent 
+        line segment from the point of tangency to the x-axis is $\sqrt{(t\frac{dx}{dt})^2+y^2}$.
+
+        Applying the isosceles triangle condition, we have
+        \[\sqrt{x^2 + y^2} = \sqrt{(t\frac{dx}{dt})^2+y^2}.\]
+        Squaring both sides and simplifying, we get
+        \[x^2 = (t\frac{dx}{dt})^2.\]
+        Taking the square root of both sides, we have
+        \[x = t\frac{dx}{dt} \quad \text{or} \quad x = -t\frac{dx}{dt}.\]
+        Rearranging, we obtain the differential equations
+        \[\frac{dx}{dt} = \frac{x}{t} \quad \text{or} \quad \frac{dx}{dt} = -\frac{x}{t}.\]
+
+        \item Second scenario: the absolute value of radius vector is the same as the length 
+        of the x-axis segment from the origin to the intersection of the tangent line with the x-axis.
+
+        Here, the length of radius vector is $\sqrt{x^2 + t^2}$, and the length of the x-axis
+        segment from the origin to the intersection of the tangent line with the x-axis is $x - t\frac{dx}{dt}$
+
+        Applying the isosceles triangle condition, we have
+        \[\sqrt{x^2 + t^2} = x - t\frac{dx}{dt}.\]
+        Squaring both sides and simplifying, we get
+        \[x^2 + t^2 = x^2 - 2xt\frac{dx}{dt} + (t\frac{dx}{dt})^2.\]
+        Rearranging, we obtain the differential equation
+        \[t^2 = - 2xt\frac{dx}{dt} + (t\frac{dx}{dt})^2.\]
+        Dividing both sides by $t^2$ (assuming $t \neq 0$), we have
+        \[1 = - 2\frac{x}{t}\frac{dx}{dt} + (\frac{dx}{dt})^2.\]
+        Rearranging, we get
+        \[(\frac{dx}{dt})^2 - 2\frac{x}{t}\frac{dx}{dt} - 1 = 0.\]
+        Solving this quadratic equation for $\frac{dx}{dt}$, we find
+        \[\frac{dx}{dt} = \frac{x}{t} \pm \sqrt{(\frac{x}{t})^2 + 1}.\]
+
+        \item Third scenario: the length of the tangent line segment from the point of tangency to the x-axis
+        is the same as the length of the x-axis segment from the origin to the intersection of the tangent line with the x-axis.
+
+        Here, the length of the tangent line segment from the point of tangency to the x-axis is $\sqrt{(t\frac{dx}{dt})^2+y^2}$, and the length of the x-axis segment from the origin to the intersection of the tangent line with the
+        x-axis is $x - t\frac{dx}{dt}$.
+
+        Applying the isosceles triangle condition, we have
+        \[\sqrt{(t\frac{dx}{dt})^2+t^2} = x - t\frac{dx}{dt}.\]
+        Squaring both sides and simplifying, we get
+        \[(t\frac{dx}{dt})^2+t^2 = x^2 - 2xt\frac{dx}{dt} + (t\frac{dx}{dt})^2.\]
+        Rearranging, we obtain the differential equation
+        \[y^2 = x^2 - 2xt\frac{dx}{dt}.\]
+        Dividing both sides by $t^2$ (assuming $t \neq 0$), we have
+        \[1 = (\frac{x}{t})^2 - 2\frac{x}{t}\frac{dx}{dt}.\]
+        Rearranging, we get
+        \[2\frac{x}{t}\frac{dx}{dt} = (\frac{x}{t})^2 - 1.\]
+        Thus, the differential equation is
+        \[\frac{dx}{dt} = \frac{(\frac{x}{t})^2 - 1}{2\frac{x}{t}}.\]
+    \end{itemize}
+
+
+
+    \vspace{1em}
+
+
+    % Add more exercises as needed
+\end{enumerate}
+
+\section{Exercise 1.2}
+
+\begin{enumerate}[label=\textbf{Exercise \arabic*:}]
+    \item
+    \textbf{Problem:} \\
+    Prove that for any constant $C$, the function $x(t)=Ce^{-3t}+2t+1$ is a solution of the ODE:
+    $$\frac{dx}{dt}+3x=6t+5.$$
+    and find the solution satisfying the initial condition $x(0)=3$.
+    
+    \textbf{Solution:} \\
+    First, we compute the derivative of $x(t)$:
+    $$\frac{dx}{dt} = -3Ce^{-3t}+2.$$
+    Now, we substitute $x(t)$ and $\frac{dx}{dt}$ into the left-hand side of the ODE:
+    $$\frac{dx}{dt}+3x = (-3Ce^{-3t}+2)+3(Ce^{-3t}+2t+1).$$
+    Simplifying this expression, we get:
+    $$-3Ce^{-3t}+2+3Ce^{-3t}+6t+3 = 6t+5.$$
+    Thus, the left-hand side equals the right-hand side of the ODE, confirming that $x(t)$ is indeed a solution.
+
+    Next, we apply the initial condition $x(0)=3$:
+    $$x(0) = Ce^{0}+2(0)+1 = C+1 = 3.$$
+    Solving for $C$, we find $C=2$. Therefore, the specific solution satisfying the initial condition is:
+    $$x(t) = 2e^{-3t}+2t+1.$$
+
+    \item
+    \textbf{Problem:} \\
+    The rate of disintegration of the radioactive substance Radium is 
+    proportional to the amount remaining.  Let the proportionality 
+    constant be k. Suppose that at a certain instant$t_0$, the mass of 
+    radium in the container is $R_0$. Find the mass $R$ of radium in the container at any time $t$.
+
+    \textbf{Solution:} \\
+    Let $R(t)$ be the mass of radium in the container at time $t$. According to the problem, we have the following differential equation:
+    $$\frac{dR}{dt} = -kR.$$
+    where $k$ is a positive constant.
+
+    This is a separable differential equation. We can separate the variables and integrate:
+    $$\int \frac{1}{R} dR = -k \int dt.$$
+    Integrating both sides, we get:
+    $$\ln|R| = -kt + C,$$
+    where $C$ is the constant of integration.
+
+    Exponentiating both sides, we find:
+    $$R(t) = e^{-kt+C} = e^C e^{-kt}.$$
+    Letting $R_0 = e^C$, we can express the solution as:
+    $$R(t) = R_0 e^{-kt}.$$
+
+    \item 
+    \textbf{Problem:} \\
+
+    Find out the Equation of motion of a object of mass m being vertically thrown up in the 
+    air with initial speed $v_0$ and subject to the gravity and the air resistance. where the
+    air resistance is proportional to the squared velocity of the object and the proportionality 
+    constant is $k^2$. What is the time for the object to reach the highest point?
+
+    \textbf{Solution:} \\
+    Let the velocity of the object at time $t$ be $v(t)$. The forces acting on the object are gravity and air resistance. The equation of motion can be expressed as:
+    $$m\frac{dv}{dt} = -mg - k^2 v|v|.$$
+    Rearranging, we have:
+    $$\frac{dv}{dt} = -g - \frac{k^2}{m} v|v|.$$ 
+    Since the object is thrown upwards, we consider the case when $v \geq 0$. Thus, the equation simplifies to:
+    $$\frac{dv}{dt} = -g - \frac{k^2}{m} v^2.$$
+    This is a separable differential equation. We can separate the variables and integrate:
+    $$\int \frac{1}{-g - \frac{k^2}{m} v^2} dv = \int dt.$$
+    Integrating both sides, we get:
+    $$v(t) = \sqrt{\frac{mg}{k^2}} \tan (C-\frac{k\sqrt{g}}{\sqrt{m}}t)$$
+    where $C$ is the constant of integration determined by the initial condition $v(0) = v_0$.
+    Thus, we have:
+    $$v(t) = \sqrt{\frac{mg}{k^2}} \tan (\arctan(\frac{k v_0}{\sqrt{mg}})-\frac{k\sqrt{g}}{\sqrt{m}}t).$$
+    The time to reach the highest point is when $v(t) = 0$, which occurs when:
+    $$\arctan(\frac{k v_0}{\sqrt{mg}})-\frac{k\sqrt{g}}{\sqrt{m}}t = 0.$$
+    Solving for $t$, we find:
+    $$t = \frac{\sqrt{m}}{k\sqrt{g}} \arctan(\frac{k v_0}{\sqrt{mg}}).$$
+    
+
+    \item
+    \textbf{Problem:} \\
+    Transform the differential equations in Examples 1.2 and 1.3 into the standard form of a first-order system.
+
+    \textbf{Solution:} \\
+    \begin{itemize}
+        \item \textbf{Example 1.2:} \\
+        The differential equation is:
+
+        \item  \textbf{Example 1.3:} \\
+        The differential equation is:
+
+    \end{itemize}
+
+    \item
+    \textbf{Problem:} \\
+    Draw the direction field of the following differential equations, and sketch the integral curve passing through the specified point.
+    \begin{enumerate}
+        \item $\frac{dx}{dt} = |x| ,(0,0), (0,-1)$
+        \item $\frac{dx}{dt} = t^2+x^2, (0,0), (0,-0.5), (\sqrt{2},0)$
+        \item $\frac{dx}{dt} = t^2 - x^2, (0,0), (0, 1)$
+    \end{enumerate}
+
+    \textbf{Solution:} \\
+
+\end{enumerate}
+    \vspace{1em}
+
+    \section{Exercise 1.3}
+
+    \begin{enumerate}[label=\textbf{Exercise \arabic*:}]
+        \item
+        \textbf{Problem:} \\
+        Find the differential equation satisfied by the following family of curves.
+        \begin{enumerate}
+            \item $x = Ct + C^2$
+            \item $x = C_1 e^t \cos t + C_2 e^t \sin t$
+            \item $(t-C_1)^2 + (x-C_2)^2 = 1$
+        \end{enumerate}
+
+        Among them, $C$, $C_1$ and $C_2$ are arbitrary constants.
+
+        \textbf{Solution:} \\
+
+        \item 
+        \textbf{Problem:} \\
+        On a plane, place a thin magnetic bar of length 2a. If some small iron filings are scattered, they will align along the direction of the magnetic field. The thin magnetic bar can be simplified as two opposite point magnetic charges located at its endpoints, with magnetic charges of +1 and -1, respectively. Find the differential equation satisfied by this magnetic field. Then, draw the direction field diagram of the magnetic field and analyze the integral curves above.
+
+        \textbf{Solution:} \\
+
+    % Add more exercises as needed
+\end{enumerate}
+
+\end{document}

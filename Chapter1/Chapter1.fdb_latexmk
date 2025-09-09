@@ -1,6 +1,6 @@
 # Fdb version 4
-["lualatex"] 1757319834.28351 "/Users/wangshiyu/Documents/latex/Solution-to-SCU-ODE-textbook-3ed/Chapter1/1.1.tex" "1.1.pdf" "1.1" 1757319834.84806 0
-  "/Users/wangshiyu/Documents/latex/Solution-to-SCU-ODE-textbook-3ed/Chapter1/1.1.tex" 1757319834.19087 4871 f9c7977c5f87808b86656ab1078f10c0 ""
+["lualatex"] 1757336536.23635 "/Users/wangshiyu/Documents/latex/Solution-to-SCU-ODE-textbook-3ed/Chapter1/Chapter1.tex" "Chapter1.pdf" "Chapter1" 1757336536.83796 0
+  "/Users/wangshiyu/Documents/latex/Solution-to-SCU-ODE-textbook-3ed/Chapter1/Chapter1.tex" 1757336536.13936 10415 d1cd21029b9029aba7be4fbdd2fda742 ""
   "/Users/wangshiyu/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc" 1748437250.72408 128299 be367f675212df055d4e2af5a576ea4b ""
   "/Users/wangshiyu/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1748437250.68265 127670 aa0bc69e37a0327ab31f5f335b78c1f7 ""
   "/Users/wangshiyu/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman17-regular.luc" 1748437250.64388 128921 07adb2945086befdab18eaf5c6037ccb ""
@@ -35,8 +35,10 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty" 1734129479 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty" 1572645307 1057 525c2192b5febbd8c1f662c9468335bb ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/unicode-data/CaseFolding.txt" 1736283795 86092 836d495767a0d88f8a2358528c634c31 ""
@@ -110,10 +112,10 @@
   "/usr/local/texlive/2025/texmf-dist/tex/luatex/luaotfload/luaotfload.lua" 1740687098 13566 16df94dd2de231b2bca0aaa0190941fe ""
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1748953588 5523539 cbe340ff87ac4cfddcdc6361a84e52ac ""
   "/usr/local/texlive/2025/texmf-var/web2c/luahbtex/lualatex.fmt" 1748953771 6503483 b35194fa7a518ed168684d5a0090af6a ""
-  "1.1.aux" 1757319834.77435 132 b624670d293a3b7d1edf65a33b97800e "lualatex"
-  "1.1.tex" 1757319834.19087 4871 f9c7977c5f87808b86656ab1078f10c0 ""
+  "Chapter1.aux" 1757336536.76069 332 2edf239f232e18dff236352444ce81f7 "lualatex"
+  "Chapter1.tex" 1757336536.13936 10415 d1cd21029b9029aba7be4fbdd2fda742 ""
   (generated)
-  "1.1.aux"
-  "1.1.log"
-  "1.1.pdf"
+  "Chapter1.aux"
+  "Chapter1.log"
+  "Chapter1.pdf"
   (rewritten before read)
